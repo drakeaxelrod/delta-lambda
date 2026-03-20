@@ -1,0 +1,16 @@
+if SHIELD_DELTA_LAMBDA_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Delta Lambda"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DELTA_LAMBDA_LEFT || SHIELD_DELTA_LAMBDA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

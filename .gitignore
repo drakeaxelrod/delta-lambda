@@ -1,0 +1,15 @@
+.direnv/
+.claude/
+build/
+result/
+
+# West-managed (fetched by `west init -l config && west update`)
+.west/
+.build/
+zmk/
+zephyr/
+modules/
+optional/
+.vscode/
+.idea/
+*.log

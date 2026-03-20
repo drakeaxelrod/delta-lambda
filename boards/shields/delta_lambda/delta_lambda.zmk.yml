@@ -1,0 +1,12 @@
+file_format: "1"
+id: delta_lambda
+name: delta_lambda
+type: shield
+url: https://github.com/drakeaxelrod/delta-lambda
+requires:
+  - seeeduino_xiao_ble
+features:
+  - keys
+siblings:
+  - delta_lambda_left
+  - delta_lambda_right

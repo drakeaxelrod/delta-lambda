@@ -1,0 +1,241 @@
+<svg width="911" height="400" viewBox="0 0 911 400" class="keymap" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="keyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f2f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="keyGradientCombo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cfe7ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="keyGradientHeld" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe5e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd0d0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <style>
+    svg.keymap {
+      font-family: 'Lilex Nerd Font', 'LilexNerdFont', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 14px;
+      font-kerning: normal;
+      text-rendering: optimizeLegibility;
+      fill: #1f2937;
+    }
+
+    rect.key {
+      fill: url(#keyGradient);
+      filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.15));
+      stroke: #c5cbd3;
+      stroke-width: 2;
+    }
+
+    rect.held {
+      fill: url(#keyGradientHeld);
+    }
+
+    rect.combo {
+      fill: url(#keyGradientCombo);
+      stroke: #8bb5e8;
+      stroke-width: 2;
+    }
+
+    text {
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    text.tap {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    text.hold {
+      font-size: 11px;
+      font-weight: 700;
+      opacity: 0.95;
+      text-anchor: middle;
+      dominant-baseline: auto;
+      transform: translateY(18px);
+    }
+
+    text.hold.small {
+      font-size: 9px;
+    }
+
+    text.trans {
+      fill: #9ca3af;
+    }
+
+    text.label {
+      font-weight: bold;
+      text-anchor: start;
+      stroke: white;
+      stroke-width: 4;
+      paint-order: stroke;
+    }
+
+    text.combo {
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    path.combo {
+      stroke-width: 1;
+      stroke: #9ca3af;
+      fill: none;
+    }
+  </style>
+  <g transform="translate(30, 56)">
+    <text x="5" y="-20" class="label" font-size="16">Base (Gallium)</text>
+    <g transform="translate(99, 135) rotate(-22.0)" class="key keypos-0">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">B</text>
+    </g>
+    <g transform="translate(168, 77) rotate(-12.0)" class="key keypos-1">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">L</text>
+    </g>
+    <g transform="translate(242, 42) rotate(-4.0)" class="key keypos-2">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">D</text>
+    </g>
+    <g transform="translate(312, 66)" class="key keypos-3">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">C</text>
+    </g>
+    <g transform="translate(372, 81)" class="key keypos-4">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">V</text>
+    </g>
+    <g transform="translate(509, 81)" class="key keypos-5">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">J</text>
+    </g>
+    <g transform="translate(569, 66)" class="key keypos-6">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">Y</text>
+    </g>
+    <g transform="translate(639, 42) rotate(4.0)" class="key keypos-7">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">O</text>
+    </g>
+    <g transform="translate(714, 77) rotate(12.0)" class="key keypos-8">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">U</text>
+    </g>
+    <g transform="translate(782, 135) rotate(22.0)" class="key keypos-9">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">,</text>
+    </g>
+    <g transform="translate(120, 190) rotate(-22.0)" class="key keypos-10">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">N</text>
+      <text x="0" y="0" class="key hold small">Gui</text>
+    </g>
+    <g transform="translate(179, 136) rotate(-12.0)" class="key keypos-11">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">R</text>
+      <text x="0" y="0" class="key hold small">Alt</text>
+    </g>
+    <g transform="translate(246, 102) rotate(-4.0)" class="key keypos-12">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">T</text>
+      <text x="0" y="0" class="key hold small">Ctrl</text>
+    </g>
+    <g transform="translate(312, 126)" class="key keypos-13">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">S</text>
+      <text x="0" y="0" class="key hold small">Shf</text>
+    </g>
+    <g transform="translate(372, 141)" class="key keypos-14">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">G</text>
+    </g>
+    <g transform="translate(509, 141)" class="key keypos-15">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">P</text>
+    </g>
+    <g transform="translate(569, 126)" class="key keypos-16">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">H</text>
+      <text x="0" y="0" class="key hold small">Shf</text>
+    </g>
+    <g transform="translate(635, 102) rotate(4.0)" class="key keypos-17">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">A</text>
+      <text x="0" y="0" class="key hold small">Ctrl</text>
+    </g>
+    <g transform="translate(702, 136) rotate(12.0)" class="key keypos-18">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">E</text>
+      <text x="0" y="0" class="key hold small">Alt</text>
+    </g>
+    <g transform="translate(761, 190) rotate(22.0)" class="key keypos-19">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">I</text>
+      <text x="0" y="0" class="key hold small">Gui</text>
+    </g>
+    <g transform="translate(141, 246) rotate(-22.0)" class="key keypos-20">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">X</text>
+    </g>
+    <g transform="translate(191, 194) rotate(-12.0)" class="key keypos-21">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">Q</text>
+    </g>
+    <g transform="translate(250, 162) rotate(-4.0)" class="key keypos-22">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">M</text>
+    </g>
+    <g transform="translate(312, 186)" class="key keypos-23">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">W</text>
+      <text x="0" y="0" class="key hold small">Hyper</text>
+    </g>
+    <g transform="translate(372, 201)" class="key keypos-24">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">Z</text>
+    </g>
+    <g transform="translate(509, 201)" class="key keypos-25">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">K</text>
+    </g>
+    <g transform="translate(569, 186)" class="key keypos-26">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">F</text>
+      <text x="0" y="0" class="key hold small">Hyper</text>
+    </g>
+    <g transform="translate(631, 162) rotate(4.0)" class="key keypos-27">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">&#x27;</text>
+    </g>
+    <g transform="translate(690, 194) rotate(12.0)" class="key keypos-28">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">;</text>
+    </g>
+    <g transform="translate(740, 246) rotate(22.0)" class="key keypos-29">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="0" class="key tap">PERIOD</text>
+    </g>
+    <g transform="translate(304, 261)" class="key keypos-30">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">Esc</text>
+      <text x="0" y="0" class="key hold small">Util</text>
+    </g>
+    <g transform="translate(371, 262) rotate(2.0)" class="key keypos-31">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">Spc</text>
+      <text x="0" y="0" class="key hold small">Nav</text>
+    </g>
+    <g transform="translate(510, 262) rotate(-2.0)" class="key keypos-32">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">Ent</text>
+      <text x="0" y="0" class="key hold small">Num</text>
+    </g>
+    <g transform="translate(577, 261)" class="key keypos-33">
+      <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key" />
+      <text x="0" y="-6" class="key tap">Bksp</text>
+      <text x="0" y="0" class="key hold small">Fun</text>
+    </g>
+  </g>
+</svg>
