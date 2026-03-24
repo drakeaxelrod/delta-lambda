@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - "config/**"
-      - "boards/**"
       - "build.yaml"
       - ".github/workflows/build.yml"
   workflow_dispatch:

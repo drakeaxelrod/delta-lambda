@@ -33,15 +33,15 @@ build: _build-left _build-right _build-reset
 # ── Internal build targets ──────────────────────────────────────────
 
 _build-left:
-    west build -s {{zmk_app}} -d {{bdir}}/left -b seeeduino_xiao_ble -- \
+    west build -s {{zmk_app}} -d {{bdir}}/left -b xiao_ble//zmk -- \
         -DSHIELD=delta_lambda_left -DZMK_CONFIG={{config}}
 
 _build-right:
-    west build -s {{zmk_app}} -d {{bdir}}/right -b seeeduino_xiao_ble -- \
+    west build -s {{zmk_app}} -d {{bdir}}/right -b xiao_ble//zmk -- \
         -DSHIELD=delta_lambda_right -DZMK_CONFIG={{config}}
 
 _build-reset:
-    west build -s {{zmk_app}} -d {{bdir}}/reset -b seeeduino_xiao_ble -- \
+    west build -s {{zmk_app}} -d {{bdir}}/reset -b xiao_ble//zmk -- \
         -DSHIELD=settings_reset -DZMK_CONFIG={{config}}
 
 # Flash a target to plugged-in XIAO (double-tap reset first)

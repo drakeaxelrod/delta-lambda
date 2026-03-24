@@ -4,7 +4,7 @@ name: delta_lambda
 type: shield
 url: https://github.com/drakeaxelrod/delta-lambda
 requires:
-  - seeeduino_xiao_ble
+  - xiao_ble
 features:
   - keys
 siblings:
