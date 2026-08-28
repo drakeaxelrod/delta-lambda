@@ -87,6 +87,15 @@
             bindings = <&mo>, <&kp>;
         };
 
+        // Hold for 3s to soft-off, tap does nothing
+        ht_off: hold_tap_soft_off {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <3000>;
+            bindings = <&soft_off>, <&none>;
+        };
+
     };
 
     // ══════════════════════════════════════════════════════════════
@@ -383,15 +392,15 @@
         };
 
         combo_soft_off_left {
-            bindings = <&soft_off>;
+            bindings = <&ht_off 0 0>;
             key-positions = <30 31>;
-            timeout-ms = <3000>;
+            timeout-ms = <50>;
         };
 
         combo_soft_off_right {
-            bindings = <&soft_off>;
+            bindings = <&ht_off 0 0>;
             key-positions = <32 33>;
-            timeout-ms = <3000>;
+            timeout-ms = <50>;
         };
     };
 
